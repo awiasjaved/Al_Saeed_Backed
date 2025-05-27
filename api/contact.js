@@ -1,6 +1,6 @@
 import { sendEmail } from '../middleware/nodemailer.js';
 
-const allowedOrigins = ['https://little-mumins-idfr.vercel.app', 'http://localhost:3000'];
+const allowedOrigins = ['https://al-saeed-foundation.vercel.app', 'http://localhost:3000'];
 
 export default async function handler(req, res) {
   const origin = req.headers.origin;
@@ -30,7 +30,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ success: false, message: 'Name, email, and message are required.' });
     }
 
-    const fixedEmail = 'littlemuminsreads@gmail.com';
+    const fixedEmail = 'muhammadawaisjaved388@gmail.com';
 
     const text = `
 NEW CONTACT FORM SUBMISSION
