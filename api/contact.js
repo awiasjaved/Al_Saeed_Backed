@@ -26,7 +26,7 @@ export default async function handler(req, res) {
   try {
     const { firstname, lastname, email, contact, address } = req.body;
 
-    if (!name || !email || !lastname || !contact) {
+    if (!firstname || !email || !lastname || !contact) {
       return res.status(400).json({ success: false, message: 'Name, email, and message are required.' });
     }
 
