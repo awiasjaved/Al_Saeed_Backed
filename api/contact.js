@@ -42,7 +42,7 @@ Contact: ${contact}
 Address: ${address}
 `;
 
-    const subject = `New Contact Message - Al Saeed Foundation`;
+    const subject = `This person contact for Donation - Al Saeed Foundation`;
 
     const result = await sendEmail(fixedEmail, subject, text);
 
