@@ -40,13 +40,9 @@ Last Name: ${lastname}
 Email: ${email}
 Contact: ${contact}
 Address: ${address}
-
-Message:
---------------------------------
-${message}
 `;
 
-    const subject = `New Contact Message - Little Mumins`;
+    const subject = `New Contact Message - Al Saeed Foundation`;
 
     const result = await sendEmail(fixedEmail, subject, text);
 
