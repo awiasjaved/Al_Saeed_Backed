@@ -35,7 +35,7 @@ export default async function handler(req, res) {
     const text = `
 NEW CONTACT FORM SUBMISSION
 
-First Name: ${name}
+First Name: ${firstname}
 Last Name: ${lastname}
 Email: ${email}
 Contact: ${contact}
